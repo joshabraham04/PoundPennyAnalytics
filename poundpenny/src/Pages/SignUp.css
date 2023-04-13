@@ -1,0 +1,41 @@
+body{
+    background-color: white;
+    min-height: 100vh;
+}
+.signup{
+    background-color: #EFBF00;
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    width: 60%;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 100%;
+    min-height: 100vh;
+   
+}
+.creds{
+    width: 40%;
+    float: right;
+    justify-content: center;
+}
+
+.header{
+    font-size: 70px;
+    color: #000; 
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 1;
+}
+
+.para{
+    font-size: 35px;
+    text-align: center;
+    width: 80%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+

@@ -1,4 +1,19 @@
 .home{
-    font: 700;
-    margin: auto;
+    background-color: #7700FF;
+    background-size: fit;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    font-size: 70px;
+    position: relative;
+    color: #fff; 
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.para{
+    font-size: 35px;
+    position: relative;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
 }

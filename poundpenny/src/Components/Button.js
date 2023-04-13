@@ -3,7 +3,7 @@ import React from 'react';
 import './Button.css';
 import { Link } from 'react-router-dom';
 
-const STYLES = ['btn--primary', 'btn--outline', 'btn--test'];
+const STYLES = ['btn--primary', 'btn--outline', 'btn--test', 'btn--nav'];
 
 const SIZES = ['btn--medium', 'btn--large'];
 
@@ -12,7 +12,8 @@ const SIZES = ['btn--medium', 'btn--large'];
   type,
   onClick,
   buttonStyle,
-  buttonSize
+  buttonSize,
+  to
 }) => {
   const checkButtonStyle = STYLES.includes(buttonStyle)
     ? buttonStyle
@@ -21,7 +22,7 @@ const SIZES = ['btn--medium', 'btn--large'];
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
   return (
-    <Link to='/SignUp' className='btn-mobile'>
+    <Link to={to} className='btn-mobile'>
       <button
         className={`btn ${checkButtonStyle} ${checkButtonSize}`}
         onClick={onClick}

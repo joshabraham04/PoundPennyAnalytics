@@ -1,12 +1,16 @@
-import './LogIn.css'
-import Button  from '../Components/Button';
+import React from 'react';
+import './LogIn.css';
 
-const LogIn = () => {
-    return (
-        <div className="signup">
-        <Button buttonStyle='btn--outline'> Log In</Button>
-        </div>
-    )
+function LogIn() {
+  return( 
+    <div className='login'>
+      <h1 className='header'>
+        Welcome back!
+        </h1>
+      <p className='para'>Let's get you back to your finances.
+      </p>
+  </div>
+  );
+
 }
-  
 export default LogIn;

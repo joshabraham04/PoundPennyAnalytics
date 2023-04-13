@@ -11,9 +11,15 @@
   }
   
   .btn--primary {
-    background-color: var(--primary);
-    color: #242424;
-    border: 1px solid var(--primary);
+    background-color: #242424;
+    color: #EFBF00;
+    border: 1px solid #EFBF00;
+  }
+
+  .btn--nav{
+    background-color: #7700FF ;
+    color:#fff;
+    border: 1px solid #E43FFF;
   }
   
   .btn--outline {
@@ -38,6 +44,6 @@
   .btn--medium:hover {
     transition: all 0.3s ease-out;
     background: #fff;
-    color: #242424;
+    color: #7700FF;
     transition: 250ms;
   }
