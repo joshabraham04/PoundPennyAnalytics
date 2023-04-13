@@ -2,18 +2,23 @@
     background-color: #A800FF;
     display: flex;
     flex-direction: column;
-    padding-top: 70px;
     align-items: center;
+    padding-top: 70px;
     height: 100%;
     min-height: 100vh;
-   
 }
+
 .invest{
     font-size: 80px;
     color:white;
     justify-content: left;
     float: left;
+    margin-bottom: 10px;
 }
 .details {
     font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 0%;
 }

@@ -1,0 +1,9 @@
+.test{
+    padding-top: 100px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    height: 100vh;
+    float:left;
+}

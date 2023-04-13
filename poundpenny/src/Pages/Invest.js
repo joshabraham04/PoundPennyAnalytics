@@ -27,8 +27,8 @@ function Invest() {
     window.addEventListener('resize', showButton);
 
   return( 
-    <div className = 'invest'>
-  <h1 className='invest'>Invest, trade, and profit<br/>with knowledge and <br/> confidence </h1>
+  <div className = 'invest'>
+  <header className='invest'>Invest, trade, and profit<br/>with knowledge and <br/> confidence</header>
   <p className='details'> Our platfrom allows investment analysis with minimal fees and commisions. Focus on your money and its growth</p>
   {button && <Button buttonStyle='btn--nav'to='/Construction'>Learn More</Button>}
 
