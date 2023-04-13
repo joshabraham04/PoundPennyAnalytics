@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Button from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import logo from '../assets/PPA-logo.png';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -29,7 +30,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            Why PPA?
+            <img src ={logo} alt="Logo"/>
             <i class='fab fa-typo3' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
