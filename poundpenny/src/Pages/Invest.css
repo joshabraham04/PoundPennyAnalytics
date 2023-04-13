@@ -1,0 +1,19 @@
+.invest{
+    background-color: #A800FF;
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    align-items: center;
+    height: 100%;
+    min-height: 100vh;
+   
+}
+.invest{
+    font-size: 80px;
+    color:white;
+    justify-content: left;
+    float: left;
+}
+.details {
+    font-size: 50px;
+}

@@ -8,6 +8,7 @@ import Almost from './Pages/Almost';
 import LogIn from './Pages/LogIn';
 import Invest from './Pages/Invest';
 import WhyPPA from './Pages/WhyPPA';
+import Construction from './Pages/Construction';
 
 function App() {
   console.log('App component is rendering');
@@ -22,6 +23,7 @@ function App() {
           <Route path='/LogIn' element= {<LogIn />} />
           <Route path= '/Invest' element= {<Invest/>} />
           <Route path = '/WhyPPA' element={<WhyPPA/>} />
+          <Route path ='/Construction' element={<Construction/>} />
         </Routes>
       </Router>
     </>
