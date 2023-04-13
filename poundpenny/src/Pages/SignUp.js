@@ -81,7 +81,7 @@ function SignUp() {
         <label> Password</label>
         <Textbox type="password" value= {password} onChange= {handlePasswordChange}/>
         </div>
-      {button && <Button buttonStyle='btn--primary'to='/SignUp'>Sign Up</Button>}
+      {button && <Button buttonStyle='btn--primary'to='/Almost'>Sign Up</Button>}
 
   </div>
   </form>

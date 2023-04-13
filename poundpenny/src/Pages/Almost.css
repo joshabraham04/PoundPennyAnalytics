@@ -1,0 +1,16 @@
+body{
+    background-color:#A800FF ;
+}
+.almost{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    width: 60%;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 100%;
+    min-height: 100vh;
+}
