@@ -11,12 +11,15 @@ function Page1 (props){
         color: props.textColor,
         fontFamily: "Inter",
         paddingBottom: "10%",
+        fontWeight: "500",
+        fontSize: "76px",
     };
 
     const subtextStyle = {
         color: props.textColor,
         fontFamily: "Inter",
-        fontWeight: "300",
+        fontWeight: "400",
+        fontSize: "28px"
     };
 
     return (
