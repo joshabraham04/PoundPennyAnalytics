@@ -9,7 +9,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
     If you do not have RouterDOM installed use:
     ### 'npm install react-router-dom
 
-    
+    If you do not have slick for the carousel
+    ### npm install react-slick
+    ### npm install slick-carousel
+
+
 ## Available Scripts
 
 In the project directory, you can run:

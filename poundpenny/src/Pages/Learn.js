@@ -28,7 +28,7 @@ function Learn(){
 
     return(
         <div className='info'>
-            <header className='header'>Let us to invest back  into you.<br/>Let yourself invest back into you.</header>
+            <header className='lheader'>Let us to invest back  into you.<br/>Let yourself invest back into you.</header>
             <p className='para'>Our investment and financial literacy resources
                 allow you know more about your money. From 
                 home economics to day trading, we put you
