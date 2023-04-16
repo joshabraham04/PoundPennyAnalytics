@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Set up
+    If you do not have react-modal installed use:
+    ### 'npm install react-modal'
+
+    If you do not have RouterDOM installed use:
+    ### 'npm install react-router-dom
+
+    
 ## Available Scripts
 
 In the project directory, you can run:

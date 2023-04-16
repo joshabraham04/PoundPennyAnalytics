@@ -10,19 +10,19 @@
     cursor: pointer;
   }
   
-  .btn--primary {
+  .crd--primary {
     background-color: #242424;
     color: #EFBF00;
     border: 3px solid #EFBF00;
   }
 
-  .btn--nav{
+  .crd--nav{
     background-color: #7700FF ;
     color:#fff;
     border: 1px solid #E43FFF;
   }
   
-  .btn--outline {
+  .crd--outline {
     background-color: transparent;
     color: #fff;
     padding: 8px 20px;
@@ -30,18 +30,21 @@
     transition: all 0.3s ease-out;
   }
   
-  .btn--medium {
-    padding: 8px 20px;
+  .crd--medium {
+    padding: 50px 74px;
     font-size: 18px;
+    margin-top: 5px;
+    margin-left: 3px;
+    margin-right: 3 px;
   }
   
-  .btn--large {
+  .crd--large {
     padding: 12px 26px;
     font-size: 20px;
   }
   
-  .btn--large:hover,
-  .btn--medium:hover {
+  .crd--large:hover,
+  .crd--medium:hover {
     transition: all 0.3s ease-out;
     background: #fff;
     color: #7700FF;

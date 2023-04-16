@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const STYLES = ['learning'];
 
-const SIZES = ['btn--medium', 'btn--large'];
+const SIZES = ['crd--medium', 'crd--large'];
 
  const Card = ({
   children,
@@ -21,9 +21,9 @@ const SIZES = ['btn--medium', 'btn--large'];
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
   return (
-    <Link to={to} className='btn-mobile'>
+    <Link to={to} className='crd-mobile'>
       <button
-        className={`btn ${checkButtonStyle} ${checkButtonSize}`}
+        className={`crd ${checkButtonStyle} ${checkButtonSize}`}
         onClick={onClick}
         type={type}
       >
