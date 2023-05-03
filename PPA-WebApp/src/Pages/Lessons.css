@@ -1,0 +1,86 @@
+body{
+    background-color: #A800FF;
+}
+.lesson{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-left:30px ;
+}
+
+
+.lesson prog{
+    padding-top: 100px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    height: 100vh;
+    margin-top: 20 px;
+    float:left;
+}
+.lesson homeec{
+    padding-top: 300px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    height: 100vh;
+    float:left;
+    margin-top: 20 px;
+}
+.lesson daytrade{
+    padding-top: 300px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    height: 100vh;
+    float:left;
+    margin-top: 60 px;
+}
+
+.pop {
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    background-color: #EFBF00;
+    padding-top: 100px;
+    margin-top: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 1200px;
+    height: 700px; 
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pop h2 {
+    position: relative;
+    padding-bottom: 30px;
+
+  }
+  .pop slider {
+    position: relative;
+
+  }
+  .slick-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .slick-dots li {
+    margin: 0 5px;
+    display: inline-block;
+  }
+  
+  
+  .pop button.exit {
+    position: relative;
+    margin-top: 70px;
+    padding-bottom: 0;
+  }
