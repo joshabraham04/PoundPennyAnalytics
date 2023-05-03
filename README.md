@@ -32,7 +32,7 @@ You may also see any lint errors in the console.
 The following scripts are available for use:
 
 (1) `db_populate.py` - A script that populates the MongoDB with a set of stocks time-series information\
-(2) `StockChart.py` - A script that takes in a ticker value and returns the CandleStick and OHLC figure charts
+(2) `StockChart.py` - A script that takes in a ticker value and returns the CandleStick and OHLC figure charts\
 (3) `AlgorithmCharts.py` - A script that calculates the investment return for a selected trading strategy for a given stock
 
 StockChart and AlgorithmCharts are used to see the stock data. Running the scripts will display a graphical chart in the localhost webbrowser.
