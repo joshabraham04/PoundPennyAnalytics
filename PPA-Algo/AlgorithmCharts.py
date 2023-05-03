@@ -44,7 +44,7 @@ def prev_available_date(init_date, trade_rows):
 
 
 # Initialize Atlas Cluster Access
-cluster = pymongo.MongoClient("mongodb+srv://joshabraham04:5397303j@cluster0.hucupar.mongodb.net/?retryWrites=true&w=majority")
+cluster = pymongo.MongoClient(f"mongodb+srv://{DB_USER}:{DB_PASS}@cluster0.hucupar.mongodb.net/?retryWrites=true&w=majority")
 try:
     cluster.admin.command('ping')
     print("Pinged deployment. Successfully connected to MongoDB")
